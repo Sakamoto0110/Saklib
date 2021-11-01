@@ -54,3 +54,10 @@ typedef struct DOUBLEPOINT2D
     DOUBLEPOINT2D& operator+=(const double v) { X += v; Y += v; return *this; }
 
 }dPoint2D, dPoint;
+
+
+
+struct DUMMYSTRUCT
+{
+    int DUMMYVAR = 1;
+};
